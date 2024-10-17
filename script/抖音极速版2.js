@@ -11,8 +11,8 @@ douyin.start = function () {
   // 等待应用选择界面出现
   sleep(3000);
 
-  // 点击第一个应用选项
-  click(device.width * 0.1, device.height * 0.93);
+  // 点击第二个应用选项
+  click(device.width * 0.3, device.height * 0.93);
   // 等待应用启动
   sleep(3000);
 

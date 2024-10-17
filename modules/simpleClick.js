@@ -1,6 +1,6 @@
 // 简化的通用点击函数
 function simpleClick(targetText) {
-  let element = text(targetText).findOne(6000);
+  let element = text(targetText).findOne(3000);
   if (!element) {
     console.log("未找到目标元素：" + targetText);
     return false;
